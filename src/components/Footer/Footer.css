@@ -1,36 +1,39 @@
 .footer {
-    display:flex;  
-    align-items:center;
-    margin:-0.5rem -3.5rem; 
-    position:relative;
-    margin-top:-7rem;
+    display: flex;
+    align-items: center;
+    margin: -0.5rem -3.5rem;
+    position: relative;
+    margin-top: -7rem;
 }
-.f-content{
-    position:absolute;
-    display:flex;
-    align-items:center;
-    justify-content:center;
-    flex-direction:column;
-    margin-top:4rem ; 
-    width:100%; 
-    gap:4rem; 
-    color:rgb(255, 255, 255)
+
+.f-content {
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 4rem;
+    width: 100%;
+    gap: 4rem;
+    color: rgb(255, 255, 255)
 }
-.f-icons{
-    display:flex;
-    gap:2rem;
-    
+
+.f-icons {
+    display: flex;
+    gap: 2rem;
+
     text-shadow:
-    0 0 5px #fff,
-    0 0 10px #fff,
-    0 0 20px #fff,
-    0 0 40px #0ff,
-    0 0 80px #0ff,
-    0 0 90px #0ff,
-    0 0 100px #0ff,
-    0 0 150px #0ff;
+        0 0 5px #fff,
+        0 0 10px #fff,
+        0 0 20px #fff,
+        0 0 40px #0ff,
+        0 0 80px #0ff,
+        0 0 90px #0ff,
+        0 0 100px #0ff,
+        0 0 150px #0ff;
 
 }
+
 /* .f-content span:nth-child(1){
     font-size:1rem;
     font-weight:bold;
@@ -38,23 +41,24 @@
 } */
 
 .glow {
-  color: rgb(255, 255, 255);
-  font-size:1.5rem;
-  font-weight:500;
-  font-style:initial;
-  font-family: Arial;
-  text-shadow:
-    0 0 5px rgb(190, 169, 169),
-    0 0 10px #fffea5,
-    0 0 20px rgb(251, 251, 70),
-    0 0 40px rgb(230, 255, 90),
-    0 0 80px rgb(255, 239, 138),
-    0 0 90px rgb(255, 249, 129),
-    0 0 100px rgb(237, 255, 148),
-    0 0 150px rgb(255, 253, 107);
+    color: rgb(255, 255, 255);
+    font-size: 1.5rem;
+    font-weight: 500;
+    font-style: initial;
+    font-family: Arial;
+    text-shadow:
+        0 0 5px rgb(190, 169, 169),
+        0 0 10px #fffea5,
+        0 0 20px rgb(251, 251, 70),
+        0 0 40px rgb(230, 255, 90),
+        0 0 80px rgb(255, 239, 138),
+        0 0 90px rgb(255, 249, 129),
+        0 0 100px rgb(237, 255, 148),
+        0 0 150px rgb(255, 253, 107);
 }
+
 @media screen and (max-width:480px) {
-    .f-content{
-        transform:scale(.5)
+    .f-content {
+        transform: scale(.5)
     }
 }
